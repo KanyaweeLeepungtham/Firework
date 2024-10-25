@@ -1,0 +1,355 @@
+.container{ 
+    top:80px;
+    position: relative;
+}
+.line{
+    height: 150px;
+    width: 5px;
+    top: 10px;
+    align-content: center;
+    background: linear-gradient(to bottom, red,black);
+    position: absolute;
+    border-radius: 50%;
+}
+body{
+    
+    background: radial-gradient(ellipse at bottom, #000000 0%, black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lightW{
+    height: 100px;
+    width: 5px;   
+    right: 60px;
+    bottom: -15px;
+    background: linear-gradient(to bottom,plum, plum,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(90deg);
+
+    
+}
+.lightE{
+    height: 100px;
+    width: 5px;   
+    left: 60px;
+    bottom: -15px;
+    background: linear-gradient(to top, plum,plum,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+.lightN{
+    height: 100px;
+    width: 5px;   
+    bottom:50px;
+    background: linear-gradient(to top, plum,plum,black);
+    position: absolute;
+    border-radius: 50%;
+    
+}
+.lightS{
+    height: 100px;
+    width: 5px;
+    top: -30px;   
+    background: linear-gradient(to bottom,plum, plum,black);
+    position: absolute;
+    border-radius: 50%;
+
+}
+.lightNW{
+    height: 70px;
+    width: 5px;   
+    bottom:50px;
+    right: 45px;
+    background: linear-gradient(to bottom,plum, plum,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(135deg);
+
+    
+}
+.lightNE{
+    height: 70px;
+    width: 5px;   
+    bottom:50px;
+    left: 45px;
+    background: linear-gradient(to top, plum,plum,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(45deg); 
+}
+.lightSW{
+    height: 70px;
+    width: 5px;   
+    right: 45px;
+    top: -20px;
+    background: linear-gradient(to top,plum, plum,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(225deg); 
+
+}
+.lightSE{
+    height: 70px;
+    width: 5px;   
+    left: 45px;
+    top:-20px;
+    background: linear-gradient(to bottom,plum, plum,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(315deg); 
+}
+.container2{ 
+    bottom:150px;
+    right: 150px;
+    position: relative;
+}
+.line2{
+    height: 150px;
+    width: 5px;
+    align-content: center;
+    background: linear-gradient(to bottom, white,black);
+    position: absolute;
+    border-radius: 50%;
+}
+
+.lightW2{
+    height: 100px;
+    width: 5px;   
+    right: 60px;
+    bottom: -15px;
+    background: linear-gradient(to bottom,yellow,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(90deg);
+
+    
+}
+.lightE2{
+    height: 100px;
+    width: 5px;   
+    left: 60px;
+    bottom: -15px;
+    background: linear-gradient(to top, yellow,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+.lightN2{
+    height: 100px;
+    width: 5px;   
+    bottom:50px;
+    background: linear-gradient(to top, yellow,black);
+    position: absolute;
+    border-radius: 50%;
+    
+}
+.lightS2{
+    height: 100px;
+    width: 5px;
+    top: -30px;   
+    background: linear-gradient(to bottom,yellow,black);
+    position: absolute;
+    border-radius: 50%;
+
+}
+.lightNW2{
+    height: 70px;
+    width: 5px;   
+    bottom:50px;
+    right: 45px;
+    background: linear-gradient(to bottom,yellow,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(135deg);
+
+    
+}
+.lightNE2{
+    height: 70px;
+    width: 5px;   
+    bottom:50px;
+    left: 45px;
+    background: linear-gradient(to top, yellow,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(45deg); 
+}
+.lightSW2{
+    height: 70px;
+    width: 5px;   
+    right: 45px;
+    top: -20px;
+    background: linear-gradient(to top,yellow,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(225deg); 
+
+}
+.lightSE2{
+    height: 70px;
+    width: 5px;   
+    left: 45px;
+    top:-20px;
+    background: linear-gradient(to bottom,yellow,black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(315deg); 
+
+}
+.container3{ 
+    bottom:100px;
+    left: 150px;
+    position: relative;
+}
+.line3{
+    height: 150px;
+    width: 5px;
+    align-content: center;
+    background: linear-gradient(to bottom, orange,black);
+    position: absolute;
+    border-radius: 50%;
+}
+
+.lightW3{
+    height: 100px;
+    width: 5px;   
+    right: 60px;
+    bottom: -15px;
+    background: linear-gradient(to bottom,rgb(9, 255, 9),black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(90deg);
+
+    
+}
+.lightE3{
+    height: 100px;
+    width: 5px;   
+    left: 60px;
+    bottom: -15px;
+    background: linear-gradient(to top, rgb(9, 255, 9),black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+.lightN3{
+    height: 100px;
+    width: 5px;   
+    bottom:50px;
+    background: linear-gradient(to top, rgb(9, 255, 9),black);
+    position: absolute;
+    border-radius: 50%;
+    
+}
+.lightS3{
+    height: 100px;
+    width: 5px;
+    top: -30px;   
+    background: linear-gradient(to bottom,rgb(9, 255, 9),black);
+    position: absolute;
+    border-radius: 50%;
+
+}
+.lightNW3{
+    height: 70px;
+    width: 5px;   
+    bottom:50px;
+    right: 45px;
+    background: linear-gradient(to bottom,rgb(9, 255, 9),black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(135deg);
+
+    
+}
+.lightNE3{
+    height: 70px;
+    width: 5px;   
+    bottom:50px;
+    left: 45px;
+    background: linear-gradient(to top, rgb(9, 255, 9),black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(45deg); 
+}
+.lightSW3{
+    height: 70px;
+    width: 5px;   
+    right: 45px;
+    top: -20px;
+    background: linear-gradient(to top,rgb(9, 255, 9),black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(225deg); 
+
+}
+.lightSE3{
+    height: 70px;
+    width: 5px;   
+    left: 45px;
+    top:-20px;
+    background: linear-gradient(to bottom,rgb(9, 255, 9),black);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(315deg); 
+
+}
+
+@keyframes explode {
+    0% {
+     
+      opacity: 0;
+    }
+    
+    50% {
+      
+      opacity: 1;
+    }
+    
+    100% {
+      
+      opacity: 0;
+    }
+  }
+ .lightW, .lightE,.lightN,.lightS, .lightNW, 
+   .lightNE,.lightSW, .lightSE{
+    animation: explode 3s  infinite;
+}
+
+.lightNE,.lightNW,.lightSW,.lightSE
+ {
+    animation-delay: 1.05s ;
+}
+.lightN,.lightS,.lightW,.lightE{
+    animation-delay: 1s ;
+}
+.line{
+    animation-delay: 0.25s;
+    animation: explode  1.5s infinite ;
+}
+.line2{
+    animation: explode 5s infinite;
+    animation-delay: 3.5s;
+}
+.lightW2, .lightE2,
+.lightN2,.lightS2, .lightNW2, 
+.lightNE2,.lightSW2, .lightSE2 {
+    animation: explode 7s infinite;
+    animation-delay: 5s;
+   }
+   
+ .line3{
+    animation: explode 7s infinite;
+    animation-delay: 5.5s;
+ }
+.lightW3, .lightE3,
+.lightN3,.lightS3, .lightNW3, 
+.lightNE3,.lightSW3, .lightSE3{
+    animation-delay: 6s;
+    animation: explode 8s infinite;
+   }
